@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/neeri/Development/KiCad/5212/5212.sch</source>
+    <date>2016 May 05, Thursday 08:57:32</date>
+    <tool>Eeschema 4.0.0-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>5212.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ST662AB</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="ST662AB" part="ST662AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCC9C2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCCA19</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCCA87</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7µ</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCCC52</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7µ</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCCCE7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Led_Small</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCCDF8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCCE65</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC857</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <libsource lib="transistors" part="BC857"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCE03D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>33k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCE15A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCE468</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCE51C</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCE629</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DCE7A4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="transistors" part="BC856">
+      <aliases>
+        <alias>BC857</alias>
+        <alias>BC858</alias>
+      </aliases>
+      <description>65V Vce, 0.1A Ic, PNP, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC856.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC856</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Led_Small">
+      <description>Led</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ST662AB" part="ST662AB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ST662AB</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1-" type="input"/>
+        <pin num="2" name="C1+" type="input"/>
+        <pin num="3" name="C2-" type="input"/>
+        <pin num="4" name="C2+" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="VOUT" type="power_out"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="SHDN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/Library/Application Support/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="ST662AB">
+      <uri>/Users/neeri/Development/KiCadLib/µThParts/ST662AB.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(P2-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(P2-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="10" name="+5V">
+      <node ref="D1" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+  </nets>
+</export>
