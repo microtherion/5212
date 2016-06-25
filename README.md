@@ -4,4 +4,4 @@
 
 ![3D View](https://github.com/microtherion/5212/raw/master/5212.png)
 
-PCB available at [OSH Park](https://oshpark.com/projects/VagC95cB/order)
+PCB available at [OSH Park](https://oshpark.com/projects/VagC95cB)
